@@ -210,11 +210,14 @@ footer{
     padding: 23px 122px;
     justify-content: space-evenly;
 }
-.footer ul li a{
+.footer ul {
     list-style: none;
-    color: black;
 }
 
+.footer a{
+    color: #fff;
+    text-decoration: none;
+}
 
 
 .footer >div{
