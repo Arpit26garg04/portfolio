@@ -103,18 +103,26 @@ main hr{
 .skills{
     max-width: 80vw;
     margin: auto;
-    height: 70vh;
+    height: 80vh;
 }
 
 .skills h1{
     font-size: 1.9rem;
 }
 
-.skills .box{
+.skills .box-1{
     background: white;
     width: 78svw;
     height: 2px;
     margin: 56px 0;
+    display: flex;
+}
+
+.skills .box-2{
+    background: white;
+    width: 78svw;
+    height: 2px;
+    margin: 300px 0;
     display: flex;
 }
 
@@ -149,6 +157,34 @@ main hr{
     width: 150px;
     font-size: 12px;
 
+}
+
+.education{
+    max-width: 80vw;
+    margin: auto;
+    height: 70vh;
+}
+
+.education h1{
+    font-size: 1.9rem;
+}
+
+.education h2{
+    font-size: 1.5rem;
+    margin-top: 25px;
+}
+
+.education .box{
+    width: 78vw;
+    height: 10px;
+    margin: 56px 0;
+}
+
+.education .horizontal{
+    position: relative;
+    top: 15px;
+    color: gray;
+    font-size: 18px;
 }
 
 .projects{
